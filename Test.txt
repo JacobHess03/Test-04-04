@@ -1,0 +1,43 @@
+1. Una classe è un costrutto di programmazione per cui si definiscono dei parametri,
+degli attributi e dei metodi. Ogni classe definisce un proprio tipo che prendere il nome dalla propria definizione
+e si lega al Costruttore realtivo alla classe stessa. Il metodo costruttore prende il nome di
+<<def __init__ (self, parametro_x, parametro_y)>>. Il self è una variabile di riferimento all'istanza della classe
+accede alle proprietà dell'istanza singola ovvero all'oggetto.
+
+2. Una collezione è una struttura dati che consente di "collezionare" più tipologie di dato.
+Ne conosco 3 liste, tuple, insiemi. Le liste sono aggregazioni modificabili e molto flessibili,
+sono ordinate, e seguono il principio di relazione d'ordine.
+Le tuple non sono modificabili una volta definite sono ordinate, hanno i loro metodi.
+Gli insiemi non godono di una relazione d'ordine ma sono modificabili.
+
+3. Le tre regole fondamentali sono l'ereditarietà e polimorfismo, l'astrazione, coerenza funzionale.
+Ereditarietà: Ogni Classe e la sua istanza può essere padre o figlio di un'altra, assumendo attributi e metodi.
+Il polimorfismo si lega a questo poiché un operatore ad esempio può assumere più "forme"
+ed eseguire operazioni con tipologie di dato diverso.
+L'astrazione fornisce la possibilità di separare il corpo
+del blocco di codice dal suo sviluppo facendo riferimento ad entità del reale.
+La coerenza funzionale è la caratteristica dell'OOP per cui un codice a parità di librerie puoò funzionare su più dispositivi.
+Quindi è coerente.
+
+
+4. Le funzioni sono blocchi di codice che si definiscono con l'operatore <<def>>
+per cui sono passati dei parametri incapsulati dalle parentesi tonde, ed eseguono delle
+operazioni ben definite. Si dividono im due macro tipologie di ritorno e non di ritorno.
+L'astrazione fornisce la possibilità di separare il corpo
+del blocco di codice dal suo sviluppo facendo riferimento ad entità del reale.
+
+5. Il concetto di controllo di flusso è quello per cui il flusso di istruzione del programma
+subisce un controllo ovvero viene controllato per poi eseguire o meno in base alle condizioni+
+delle operazioni specifiche.
+Le famiglie che ne fanno parte sono: if-else-elif, while-for, match case.
+La prima famiglia sono costrutti di condizione per cui se la condizione è verificata
+o meno si esegue il blocco di codice in riferimento.
+Da notare che if si trova sempre al primo livello, else all'ultimo ed elif tra i due.
+Else è l'unico che non ha bisogno di definire una condizione nello specifico.
+Il While è un ciclo a condizione per cui itera le operazioni fintantoché la condizione risulta vera o meno.
+Il For è un ciclo "matematico" itera per un numero limitato di volte l'operazione in base alla lunghezza di una lista per esempio
+ma in generale per un limite.
+Il match case è l'equivalente dello switch case in altri linguaggi. Fornisce la possibilità
+di creare un menù di selezione dato un comando che solitamente è stato fornito dall'input
+per poi avere più casi. Da notare che esiste il case _: che fa riferimento all'operazione che
+ed il caso per cui il comando non è assoaciato a nessun altro.
